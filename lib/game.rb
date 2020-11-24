@@ -50,9 +50,16 @@ class Game
   def play
     while !over?
       turn
+<<<<<<< HEAD
     end
     puts "Congratulations #{winner}!" if won?
     puts "Cat's Game!" if draw?
+=======
+      puts "Congratulations #{winner}" if won?
+      puts "Cat's Game" if draw?
+      turn
+    end
+>>>>>>> 8686f3acbe61c13373d674f05f7c3da2ad1dd61b
   end
 
 end
